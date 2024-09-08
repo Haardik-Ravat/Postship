@@ -1,0 +1,174 @@
+.tracking-page-styles {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  position: relative;
+}
+
+.tracking-page-styles .div-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tracking-page-styles .heading-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.tracking-page-styles .heading-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.tracking-page-styles .text-wrapper-9 {
+  align-self: stretch;
+  color: var(--semantic-tokens-color-text-text-brand);
+  font-family: var(--heading-heading-md-font-family);
+  font-size: var(--heading-heading-md-font-size);
+  font-style: var(--heading-heading-md-font-style);
+  font-weight: var(--heading-heading-md-font-weight);
+  letter-spacing: var(--heading-heading-md-letter-spacing);
+  line-height: var(--heading-heading-md-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.tracking-page-styles .text-wrapper-10 {
+  align-self: stretch;
+  color: var(--semantic-tokens-color-text-text-brand);
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.tracking-page-styles .div-4 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tracking-page-styles .text-field {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: var(--primitive-tokens-space-100);
+  position: relative;
+}
+
+.tracking-page-styles .label-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--primitive-tokens-space-200);
+  position: relative;
+  width: 100%;
+}
+
+.tracking-page-styles .label-5 {
+  color: var(--semantic-tokens-color-text-text);
+  flex: 1;
+  font-family: var(--body-body-md-default-font-family);
+  font-size: var(--body-body-md-default-font-size);
+  font-style: var(--body-body-md-default-font-style);
+  font-weight: var(--body-body-md-default-font-weight);
+  letter-spacing: var(--body-body-md-default-letter-spacing);
+  line-height: var(--body-body-md-default-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.tracking-page-styles .input {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--semantic-tokens-color-input-bg-surface);
+  border: 0.66px solid;
+  border-color: var(--semantic-tokens-color-input-border);
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--primitive-tokens-space-100);
+  padding: var(--primitive-tokens-space-150) var(--primitive-tokens-space-300) var(--primitive-tokens-space-150)
+    var(--primitive-tokens-space-300);
+  position: relative;
+  width: 100%;
+}
+
+.tracking-page-styles .input-text {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.tracking-page-styles .value {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: var(--semantic-tokens-color-text-text);
+  display: -webkit-box;
+  font-family: var(--body-body-md-default-font-family);
+  font-size: var(--body-body-md-default-font-size);
+  font-style: var(--body-body-md-default-font-style);
+  font-weight: var(--body-body-md-default-font-weight);
+  letter-spacing: var(--body-body-md-default-letter-spacing);
+  line-height: var(--body-body-md-default-line-height);
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tracking-page-styles .rectangle {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  height: 32px;
+  position: relative;
+  width: 64px;
+}
+
+.tracking-page-styles .button-group-2 {
+  align-self: stretch !important;
+  display: flex !important;
+  height: 28px !important;
+  justify-content: unset !important;
+  width: 100% !important;
+}
+
+.tracking-page-styles .button-group-3 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  transform: rotate(180deg) !important;
+  width: 100px !important;
+}

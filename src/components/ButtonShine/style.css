@@ -1,0 +1,42 @@
+.button-shine {
+  height: 28px;
+  position: relative;
+  width: 56px;
+}
+
+.button-shine .shine {
+  background-color: var(--variable-collection-hack-do-not-implement);
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+  height: 27px;
+  width: 55px;
+}
+
+.button-shine.active {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.button-shine.default {
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+}
+
+.button-shine.default.rest {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 88.54%, rgba(255, 255, 255, 0.15) 100%);
+  box-shadow: inset 0px 1px 0px #000000, inset 0px -1px 0px 1px #000000, inset -2px 0px 0px #ffffff33,
+    inset 2px 0px 0px #ffffff33, inset 0px 2px 0px #ffffff33;
+}
+
+.button-shine.default.hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 88.54%, rgba(255, 255, 255, 0.15) 100%);
+  box-shadow: inset 0px 1px 0px #000000, inset 0px -1px 0px 1px #000000, inset -2px 0px 0px #ffffff33,
+    inset 2px 0px 0px #ffffff33, inset 0px 2px 0px #ffffff33;
+}
+
+.button-shine.rest .shine {
+  box-shadow: inset 0px 1px 0px #ffffff7a, inset -1px 0px 0px #ffffff33, inset 1px 0px 0px #ffffff33,
+    inset 0px -1.5px 0px #00000040;
+}
+
+.button-shine.hover .shine {
+  box-shadow: inset 0px 1px 0px #ffffff7a, inset 1px 0px 0px #ffffff33, inset -1px 0px 0px #ffffff33,
+    inset 0px -1.5px 0px #00000040;
+}

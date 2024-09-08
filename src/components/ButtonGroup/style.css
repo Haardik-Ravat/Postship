@@ -1,0 +1,75 @@
+.button-group {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.button-group .button {
+  all: unset;
+  align-items: center;
+  background-color: var(--semantic-tokens-color-bg-fill-fill-duplicate);
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+  box-shadow: inset 0px 1px 0px #e3e3e3, inset 1px 0px 0px #e3e3e3, inset -1px 0px 0px #e3e3e3,
+    inset 0px -1px 0px #b5b5b5;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: var(--primitive-tokens-space-050);
+  justify-content: center;
+  padding: var(--primitive-tokens-space-150) var(--primitive-tokens-space-300) var(--primitive-tokens-space-150)
+    var(--primitive-tokens-space-300);
+  position: relative;
+}
+
+.button-group .label {
+  color: var(--semantic-tokens-color-text-text);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-group .div {
+  align-items: center;
+  background-color: var(--semantic-tokens-color-bg-fill-fill-brand);
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: var(--primitive-tokens-space-050);
+  justify-content: center;
+  padding: var(--primitive-tokens-space-150) var(--primitive-tokens-space-300) var(--primitive-tokens-space-150)
+    var(--primitive-tokens-space-300);
+  position: relative;
+}
+
+.button-group .text-wrapper {
+  color: var(--semantic-tokens-color-text-text-brand-on-bg-fill);
+  font-family: var(--body-body-sm-semibold-font-family);
+  font-size: var(--body-body-sm-semibold-font-size);
+  font-style: var(--body-body-sm-semibold-font-style);
+  font-weight: var(--body-body-sm-semibold-font-weight);
+  letter-spacing: var(--body-body-sm-semibold-letter-spacing);
+  line-height: var(--body-body-sm-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-group.extra-tight {
+  gap: var(--primitive-tokens-space-100);
+}
+
+.button-group.loose {
+  gap: var(--primitive-tokens-space-500);
+}
+
+.button-group.tight {
+  gap: var(--semantic-tokens-space-button-group-gap);
+}
